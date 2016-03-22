@@ -913,6 +913,10 @@ body.nav-opened .nav {
     animation-delay: 0.1s;
 }
 
+.home-template .blog-logo {
+  display: none;
+}
+
 .home-template h1.page-title {
   width: 400px;
   height: 48px;
