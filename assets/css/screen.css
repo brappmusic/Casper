@@ -913,6 +913,21 @@ body.nav-opened .nav {
     animation-delay: 0.1s;
 }
 
+.home-template h1.page-title {
+  width: 400px;
+  height: 48px;
+  text-indent: -9999px;
+  background-image: url('/assets/images/Brapp_News_X1_logo_48x400px.png');
+  background-repeat: no-repeat;
+  background-size: 400px 48px;
+  text-align: center;
+  display: inline-block;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  background-image: url('/assets/images/Brapp_News_X1_logo_96x800px.png');
+}
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
