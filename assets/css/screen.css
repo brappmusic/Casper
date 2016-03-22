@@ -929,7 +929,9 @@ body.nav-opened .nav {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  background-image: url('/assets/images/Brapp_News_X1_logo_96x800px.png');
+  .home-template h1.page-title {
+    background-image: url('/assets/images/Brapp_News_X1_logo_96x800px.png');
+  }
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
