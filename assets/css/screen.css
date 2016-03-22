@@ -920,6 +920,7 @@ body.nav-opened .nav {
 .home-template h1.page-title {
   width: 400px;
   height: 48px;
+  margin-bottom: 20px;
   text-indent: -9999px;
   background-image: url('/assets/images/Brapp_News_X1_logo_48x400px.png');
   background-repeat: no-repeat;
